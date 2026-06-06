@@ -1,0 +1,1 @@
+{"root":["./vite.config.ts","./src/app.tsx","./src/main.tsx","./src/components/ui/button.tsx","./src/hooks/useusers.ts","./src/layouts/applayout.tsx","./src/lib/theme.ts","./src/lib/utils.ts","./src/pages/dashboardpage.tsx","./src/pages/userspage.tsx","./src/services/users.ts","./src/store/useuistore.ts"],"errors":true,"version":"6.0.3"}
