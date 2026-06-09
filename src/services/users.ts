@@ -1,4 +1,6 @@
-export async function getUsers() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/users");
-  return res.json();
+import { apiFetch } from "@/lib/api";
+import type { User } from "@/types/user";
+
+export async function getUsers(): Promise<User[]> {
+  return apiFetch<User[]>("/users");
 }
